@@ -7,6 +7,7 @@ or exersices, documentaion references and labs as well.
 
 * Docker knowledge 
 * Linux concepts 
+* K8S basic 
 * Kubernetes local cluster, see [here](create_k8s_cluster.md) 
 
 
