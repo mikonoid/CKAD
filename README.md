@@ -3,6 +3,13 @@ Certified Kubernetes Application Developer (CKAD) preparation
 Preparation to CKAD exam for developers. This repo collects
 or exersices, documentaion references and labs as well.
 
+## Prerequisites
+
+* Docker knowledge 
+* Linux concepts 
+* Kubernetes local cluster, see [here](create_k8s_cluster.md) 
+
+
 ## Contents
 
 * Core Concepts - 13%
