@@ -14,7 +14,7 @@ or exersices, documentaion references and labs as well.
 ## Contents
 
 * Core Concepts - 13%
-* Multi-container pods - 10% (In progress)
+* Multi-container pods - 10%
 * Pod design - 20% (In progress)
 * Configuration - 18% (In progress)
 * Observability - 18% (In progress)
@@ -32,3 +32,7 @@ or exersices, documentaion references and labs as well.
 * Resource Requirements [here](core_concepts/resource_requirements.md)
 * Secrets [here](core_concepts/secrets.md)
 * Service Accounts [here](core_concepts/service_accounts.md)
+
+### Multi-container pods
+* Multi-container pods [here](Multicontainer_pods/multi-container-pod.md)
+
