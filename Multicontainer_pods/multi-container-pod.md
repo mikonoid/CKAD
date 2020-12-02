@@ -27,6 +27,13 @@ spec:
 
 ### Lab with ambassador container (Haproxy + legacy app)
 
+Description
+
+The legacy app in docker mk51/ambassador-example:latest is hard-coded to only
+server content on port 8775, but you wanna to be able to access the service with standart port 80.
+The task is to build kubernetes setup with ambassador container with Haproxy and expose port 80.
+
+
 Configmap:
 
 ```
