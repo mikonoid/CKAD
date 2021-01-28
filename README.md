@@ -15,11 +15,11 @@ or exersices, documentaion references and labs as well.
 
 * Core Concepts - 13%
 * Multi-container pods - 10%
-* Pod design - 20% (In progress)
-* Configuration - 18% (In progress)
-* Observability - 18% (In progress)
-* Services and networking - 13% (In progress)
-* State persistence - 8% (In progress)
+* Pod design - 20% 
+* Configuration - 18%
+* Observability - 18%
+* Services and networking - 13% 
+* State persistence - 8%
 
 ### Core concepts 
 
