@@ -15,11 +15,11 @@ or exersices, documentaion references and labs as well.
 
 * Core Concepts - 13%
 * Multi-container pods - 10%
-* Pod design - 20% (In progress)
+* Pod design - 20%
 * Configuration - 18% (In progress)
-* Observability - 18% (In progress)
-* Services and networking - 13% (In progress)
-* State persistence - 8% (In progress)
+* Observability - 18%
+* Services and networking - 13%
+* State persistence - 8%
 
 ### Core concepts 
 
@@ -34,5 +34,33 @@ or exersices, documentaion references and labs as well.
 * Service Accounts [here](core_concepts/service_accounts.md)
 
 ### Multi-container pods
-* Multi-container pods [here](Multicontainer_pods/multi-container-pod.md)
 
+* Multi-container pods [here](multicontainer_pods/multi-container-pod.md)
+
+### Observability
+
+* Container logging [here](observability/container_logging.md)
+* Debbuging in Kubernetes [here](observability/debugging.md)
+* Monitoring of applicatons [here](observability/monitoring_application.md)
+* Probes [here](observability/probes.md)
+
+### Pod design
+
+* Deployments [here](pod_design/deployments.md)
+* Jobs and cronjobs [here](pod_design/jobs_and_cronjobs.md)
+* Labels and selectors [here](pod_design/labels_selectors.md)
+* Rolling Updates [here](pod_design/rolling_updates.md)
+
+### Configuration
+
+In progress 
+
+### Services and networking 
+
+* Network Policies [here](services_and_networking/network_policies.md)
+* Services [here](services_and_networking/services.md)
+
+### State persistence
+
+* PV Volumes and claims [here](state_persistence/persistentVolumes_and_claims.md)
+* Volumes [here](state_persistence/volumes.md)
