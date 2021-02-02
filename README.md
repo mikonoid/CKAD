@@ -18,7 +18,7 @@ or exersices, documentaion references and labs as well.
 * Pod design - 20%
 * Configuration - 18% (In progress)
 * Observability - 18%
-* Services and networking - 13%
+* Services and networking - 13% 
 * State persistence - 8%
 
 ### Core concepts 
