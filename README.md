@@ -16,7 +16,7 @@ or exersices, documentaion references and labs as well.
 * Core Concepts - 13%
 * Multi-container pods - 10%
 * Pod design - 20%
-* Configuration - 18% (In progress)
+* Configuration - 18%
 * Observability - 18%
 * Services and networking - 13% 
 * State persistence - 8%
@@ -53,7 +53,11 @@ or exersices, documentaion references and labs as well.
 
 ### Configuration
 
-In progress 
+* Configmaps [here](configuration/configmaps.md)
+* Resource requirements [here](configuration/resource_requirements.md)
+* Secrets [here](configuration/secrets.md)
+* Security context [here](configuration/security_context.md)
+* Service accounts [here](configuration/service_accounts.md)
 
 ### Services and networking 
 
