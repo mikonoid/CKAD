@@ -1,0 +1,42 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: deployment-xyz
+  name: deployment-xyz
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: deployment-xyz
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: deployment-xyz
+    spec:
+      containers:
+      - image: busybox
+        name: logger-dev
+        command: ["bin/sh", "-c", "while true; do echo 'I like k8s' >> /tmp/log/input.log; sleep 10; done "]
+        volumeMounts:
+        - name: myvol1
+          mountPath: /tmp/log
+      - image: fluentd:v0.12
+        name: adapter-zen
+        command: ["bin/sh", "-c", "tail -f /tmp/log/input.log >> /tmp/log/output.log"]
+        volumeMounts:
+        - name: myvol1
+          mountPath: /tmp/log
+        - name: myvol2
+          mountPath: /fluent/etc
+      volumes:
+      - name: myvol1
+        persistentVolumeClaim:
+          claimName: pvc-claim-2
+      - name: myvol2
+        persistentVolumeClaim:
+          claimName: pvc-claim-2    
+status: {}
